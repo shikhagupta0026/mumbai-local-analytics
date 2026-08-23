@@ -1,0 +1,1076 @@
+{
+    "CR": [
+        {
+            "name": "mumbai_cst",
+            "display_name": "Mumbai CST",
+            "sequence": 1,
+            "distance_km": 0,
+            "branch": null
+        },
+        {
+            "name": "masjid",
+            "display_name": "Masjid",
+            "sequence": 2,
+            "distance_km": 1.22,
+            "branch": null
+        },
+        {
+            "name": "sandhurst_road",
+            "display_name": "Sandhurst Road",
+            "sequence": 3,
+            "distance_km": 1.8,
+            "branch": null
+        },
+        {
+            "name": "byculla",
+            "display_name": "Byculla",
+            "sequence": 4,
+            "distance_km": 4.04,
+            "branch": null
+        },
+        {
+            "name": "chinchpokli",
+            "display_name": "Chinchpokli",
+            "sequence": 5,
+            "distance_km": 5.53,
+            "branch": null
+        },
+        {
+            "name": "currey_road",
+            "display_name": "Currey Road",
+            "sequence": 6,
+            "distance_km": 6.07,
+            "branch": null
+        },
+        {
+            "name": "parel",
+            "display_name": "Parel",
+            "sequence": 7,
+            "distance_km": 7.65,
+            "branch": null
+        },
+        {
+            "name": "dadar",
+            "display_name": "Dadar",
+            "sequence": 8,
+            "distance_km": 8.85,
+            "branch": null
+        },
+        {
+            "name": "matunga",
+            "display_name": "Matunga",
+            "sequence": 9,
+            "distance_km": 10.12,
+            "branch": null
+        },
+        {
+            "name": "sion",
+            "display_name": "Sion",
+            "sequence": 10,
+            "distance_km": 12.71,
+            "branch": null
+        },
+        {
+            "name": "kurla",
+            "display_name": "Kurla",
+            "sequence": 11,
+            "distance_km": 15.39,
+            "branch": null
+        },
+        {
+            "name": "vidyavihar",
+            "display_name": "Vidyavihar",
+            "sequence": 12,
+            "distance_km": 17.8,
+            "branch": null
+        },
+        {
+            "name": "ghatkopar",
+            "display_name": "Ghatkopar",
+            "sequence": 13,
+            "distance_km": 19.3,
+            "branch": null
+        },
+        {
+            "name": "vikhroli",
+            "display_name": "Vikhroli",
+            "sequence": 14,
+            "distance_km": 22.85,
+            "branch": null
+        },
+        {
+            "name": "kanjur_marg",
+            "display_name": "Kanjur Marg",
+            "sequence": 15,
+            "distance_km": 24.69,
+            "branch": null
+        },
+        {
+            "name": "bhandup",
+            "display_name": "Bhandup",
+            "sequence": 16,
+            "distance_km": 26.56,
+            "branch": null
+        },
+        {
+            "name": "nahur",
+            "display_name": "Nahur",
+            "sequence": 17,
+            "distance_km": 28.66,
+            "branch": null
+        },
+        {
+            "name": "mulund",
+            "display_name": "Mulund",
+            "sequence": 18,
+            "distance_km": 30.56,
+            "branch": null
+        },
+        {
+            "name": "thane",
+            "display_name": "Thane",
+            "sequence": 19,
+            "distance_km": 33.02,
+            "branch": null
+        },
+        {
+            "name": "kalva",
+            "display_name": "Kalva",
+            "sequence": 20,
+            "distance_km": 35.4,
+            "branch": null
+        },
+        {
+            "name": "mumbra",
+            "display_name": "Mumbra",
+            "sequence": 21,
+            "distance_km": 39.08,
+            "branch": null
+        },
+        {
+            "name": "diva",
+            "display_name": "Diva",
+            "sequence": 22,
+            "distance_km": 42.46,
+            "branch": null
+        },
+        {
+            "name": "kopar",
+            "display_name": "Kopar",
+            "sequence": 23,
+            "distance_km": 46.86,
+            "branch": null
+        },
+        {
+            "name": "dombivli",
+            "display_name": "Dombivli",
+            "sequence": 24,
+            "distance_km": 48.06,
+            "branch": null
+        },
+        {
+            "name": "thakurli",
+            "display_name": "Thakurli",
+            "sequence": 25,
+            "distance_km": 49.51,
+            "branch": null
+        },
+        {
+            "name": "kalyan",
+            "display_name": "Kalyan",
+            "sequence": 26,
+            "distance_km": 53.21,
+            "branch": null
+        },
+        {
+            "name": "vithalwadi",
+            "display_name": "Vithalwadi",
+            "sequence": 27,
+            "distance_km": 55.59,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "ulhas_nagar",
+            "display_name": "Ulhas Nagar",
+            "sequence": 28,
+            "distance_km": 57.22,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "ambernath",
+            "display_name": "Ambernath",
+            "sequence": 29,
+            "distance_km": 59.83,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "badlapur",
+            "display_name": "Badlapur",
+            "sequence": 30,
+            "distance_km": 67.26,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "vangani",
+            "display_name": "Vangani",
+            "sequence": 31,
+            "distance_km": 77.99,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "shelu",
+            "display_name": "Shelu",
+            "sequence": 32,
+            "distance_km": 82.02,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "neral",
+            "display_name": "Neral",
+            "sequence": 33,
+            "distance_km": 86.12,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "bhivpuri_road",
+            "display_name": "Bhivpuri Road",
+            "sequence": 34,
+            "distance_km": 92.85,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "karjat",
+            "display_name": "Karjat",
+            "sequence": 35,
+            "distance_km": 99.72,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "palasdhari",
+            "display_name": "Palasdhari",
+            "sequence": 36,
+            "distance_km": 102.69,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "kelavli",
+            "display_name": "Kelavli",
+            "sequence": 37,
+            "distance_km": 107.86,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "dolavli",
+            "display_name": "Dolavli",
+            "sequence": 38,
+            "distance_km": 108.43,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "lowjee",
+            "display_name": "Lowjee",
+            "sequence": 39,
+            "distance_km": 111.58,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "khopoli",
+            "display_name": "Khopoli",
+            "sequence": 40,
+            "distance_km": 114.24,
+            "branch": "KHOPOLI"
+        },
+        {
+            "name": "shahad",
+            "display_name": "Shahad",
+            "sequence": 41,
+            "distance_km": 56.25,
+            "branch": "KASARA"
+        },
+        {
+            "name": "ambivli",
+            "display_name": "Ambivli",
+            "sequence": 42,
+            "distance_km": 57.98,
+            "branch": "KASARA"
+        },
+        {
+            "name": "titwala",
+            "display_name": "Titwala",
+            "sequence": 43,
+            "distance_km": 64.05,
+            "branch": "KASARA"
+        },
+        {
+            "name": "khadavli",
+            "display_name": "Khadavli",
+            "sequence": 44,
+            "distance_km": 71.4,
+            "branch": "KASARA"
+        },
+        {
+            "name": "vasind",
+            "display_name": "Vasind",
+            "sequence": 45,
+            "distance_km": 79.4,
+            "branch": "KASARA"
+        },
+        {
+            "name": "asangaon",
+            "display_name": "Asangaon",
+            "sequence": 46,
+            "distance_km": 85.43,
+            "branch": "KASARA"
+        },
+        {
+            "name": "atgaon",
+            "display_name": "Atgaon",
+            "sequence": 47,
+            "distance_km": 94.87,
+            "branch": "KASARA"
+        },
+        {
+            "name": "thansit",
+            "display_name": "Thansit",
+            "sequence": 48,
+            "distance_km": 101,
+            "branch": "KASARA"
+        },
+        {
+            "name": "khardi",
+            "display_name": "Khardi",
+            "sequence": 49,
+            "distance_km": 107.03,
+            "branch": "KASARA"
+        },
+        {
+            "name": "umbermalli",
+            "display_name": "Umbermalli",
+            "sequence": 50,
+            "distance_km": 113.16,
+            "branch": "KASARA"
+        },
+        {
+            "name": "kasara",
+            "display_name": "Kasara",
+            "sequence": 51,
+            "distance_km": 120.56,
+            "branch": "KASARA"
+        }
+    ],
+    "WR": [
+        {
+            "name": "churchgate",
+            "display_name": "Churchgate",
+            "sequence": 1,
+            "distance_km": 0,
+            "branch": null
+        },
+        {
+            "name": "marine_lines",
+            "display_name": "Marine Lines",
+            "sequence": 2,
+            "distance_km": 0.99,
+            "branch": null
+        },
+        {
+            "name": "charni_road",
+            "display_name": "Charni Road",
+            "sequence": 3,
+            "distance_km": 1.8,
+            "branch": null
+        },
+        {
+            "name": "grant_road",
+            "display_name": "Grant Road",
+            "sequence": 4,
+            "distance_km": 3.59,
+            "branch": null
+        },
+        {
+            "name": "mumbai_central",
+            "display_name": "Mumbai Central",
+            "sequence": 5,
+            "distance_km": 4.48,
+            "branch": null
+        },
+        {
+            "name": "mahalakshmi",
+            "display_name": "Mahalakshmi",
+            "sequence": 6,
+            "distance_km": 5.95,
+            "branch": null
+        },
+        {
+            "name": "lower_parel",
+            "display_name": "Lower Parel",
+            "sequence": 7,
+            "distance_km": 7.67,
+            "branch": null
+        },
+        {
+            "name": "prabhadevi",
+            "display_name": "Prabhadevi",
+            "sequence": 8,
+            "distance_km": 8.98,
+            "branch": null
+        },
+        {
+            "name": "dadar",
+            "display_name": "Dadar",
+            "sequence": 9,
+            "distance_km": 10.17,
+            "branch": null
+        },
+        {
+            "name": "matunga_road",
+            "display_name": "Matunga Road",
+            "sequence": 10,
+            "distance_km": 11.75,
+            "branch": null
+        },
+        {
+            "name": "mahim_jn",
+            "display_name": "Mahim Jn.",
+            "sequence": 11,
+            "distance_km": 12.93,
+            "branch": null
+        },
+        {
+            "name": "bandra",
+            "display_name": "Bandra",
+            "sequence": 12,
+            "distance_km": 14.66,
+            "branch": null
+        },
+        {
+            "name": "khar_road",
+            "display_name": "Khar Road",
+            "sequence": 13,
+            "distance_km": 16.29,
+            "branch": null
+        },
+        {
+            "name": "santa_cruz",
+            "display_name": "Santa Cruz",
+            "sequence": 14,
+            "distance_km": 17.61,
+            "branch": null
+        },
+        {
+            "name": "vile_parle",
+            "display_name": "Vile Parle",
+            "sequence": 15,
+            "distance_km": 19.67,
+            "branch": null
+        },
+        {
+            "name": "andheri",
+            "display_name": "Andheri",
+            "sequence": 16,
+            "distance_km": 21.83,
+            "branch": null
+        },
+        {
+            "name": "jogeshwari",
+            "display_name": "Jogeshwari",
+            "sequence": 17,
+            "distance_km": 23.52,
+            "branch": null
+        },
+        {
+            "name": "ram_mandir",
+            "display_name": "Ram Mandir",
+            "sequence": 18,
+            "distance_km": 25.33,
+            "branch": null
+        },
+        {
+            "name": "goregaon",
+            "display_name": "Goregaon",
+            "sequence": 19,
+            "distance_km": 26.9,
+            "branch": null
+        },
+        {
+            "name": "malad",
+            "display_name": "Malad",
+            "sequence": 20,
+            "distance_km": 29.32,
+            "branch": null
+        },
+        {
+            "name": "kandivali",
+            "display_name": "Kandivali",
+            "sequence": 21,
+            "distance_km": 31.22,
+            "branch": null
+        },
+        {
+            "name": "borivali",
+            "display_name": "Borivali",
+            "sequence": 22,
+            "distance_km": 33.98,
+            "branch": null
+        },
+        {
+            "name": "dahisar",
+            "display_name": "Dahisar",
+            "sequence": 23,
+            "distance_km": 36.34,
+            "branch": null
+        },
+        {
+            "name": "mira_road",
+            "display_name": "Mira Road",
+            "sequence": 24,
+            "distance_km": 39.76,
+            "branch": null
+        },
+        {
+            "name": "bhayandar",
+            "display_name": "Bhayandar",
+            "sequence": 25,
+            "distance_km": 43.11,
+            "branch": null
+        },
+        {
+            "name": "naigaon",
+            "display_name": "Naigaon",
+            "sequence": 26,
+            "distance_km": 47.7,
+            "branch": null
+        },
+        {
+            "name": "vasai_road",
+            "display_name": "Vasai Road",
+            "sequence": 27,
+            "distance_km": 51.78,
+            "branch": null
+        },
+        {
+            "name": "nalla_sopara",
+            "display_name": "Nalla Sopara",
+            "sequence": 28,
+            "distance_km": 55.85,
+            "branch": null
+        },
+        {
+            "name": "virar",
+            "display_name": "Virar",
+            "sequence": 29,
+            "distance_km": 59.88,
+            "branch": null
+        },
+        {
+            "name": "vaitarna",
+            "display_name": "Vaitarna",
+            "sequence": 30,
+            "distance_km": 68.42,
+            "branch": null
+        },
+        {
+            "name": "saphale",
+            "display_name": "Saphale",
+            "sequence": 31,
+            "distance_km": 76.44,
+            "branch": null
+        },
+        {
+            "name": "kelve_road",
+            "display_name": "Kelve Road",
+            "sequence": 32,
+            "distance_km": 83.55,
+            "branch": null
+        },
+        {
+            "name": "palghar",
+            "display_name": "Palghar",
+            "sequence": 33,
+            "distance_km": 91.12,
+            "branch": null
+        },
+        {
+            "name": "umroli",
+            "display_name": "Umroli",
+            "sequence": 34,
+            "distance_km": 96.5,
+            "branch": null
+        },
+        {
+            "name": "boisar",
+            "display_name": "Boisar",
+            "sequence": 35,
+            "distance_km": 102.69,
+            "branch": null
+        },
+        {
+            "name": "vangaon_wr",
+            "display_name": "Vangaon",
+            "sequence": 36,
+            "distance_km": 111.7,
+            "branch": null
+        },
+        {
+            "name": "gholvad",
+            "display_name": "Gholvad",
+            "sequence": 37,
+            "distance_km": 118.88,
+            "branch": null
+        },
+        {
+            "name": "dahanu_road",
+            "display_name": "Dahanu Road",
+            "sequence": 38,
+            "distance_km": 123.78,
+            "branch": null
+        }
+    ],
+    "HR": [
+        {
+            "name": "mumbai_csmt_hr",
+            "display_name": "Mumbai CSMT",
+            "sequence": 1,
+            "distance_km": 0,
+            "branch": null
+        },
+        {
+            "name": "masjid_hr",
+            "display_name": "Masjid",
+            "sequence": 2,
+            "distance_km": 1.22,
+            "branch": null
+        },
+        {
+            "name": "sandhurst_rd_hr",
+            "display_name": "Sandhurst Road",
+            "sequence": 3,
+            "distance_km": 1.8,
+            "branch": null
+        },
+        {
+            "name": "dockyard_rd",
+            "display_name": "Dockyard Road",
+            "sequence": 4,
+            "distance_km": 2.99,
+            "branch": null
+        },
+        {
+            "name": "reay_road",
+            "display_name": "Reay Road",
+            "sequence": 5,
+            "distance_km": 4.08,
+            "branch": null
+        },
+        {
+            "name": "cotton_green",
+            "display_name": "Cotton Green",
+            "sequence": 6,
+            "distance_km": 5.18,
+            "branch": null
+        },
+        {
+            "name": "sewri",
+            "display_name": "Sewri",
+            "sequence": 7,
+            "distance_km": 7.1,
+            "branch": null
+        },
+        {
+            "name": "vadala_road",
+            "display_name": "Vadala Road",
+            "sequence": 8,
+            "distance_km": 9.11,
+            "branch": null
+        },
+        {
+            "name": "kings_circle",
+            "display_name": "King's Circle",
+            "sequence": 9,
+            "distance_km": 10.83,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "mahim_jn_hr",
+            "display_name": "Mahim Jn.",
+            "sequence": 10,
+            "distance_km": 12.52,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "bandra_hr",
+            "display_name": "Bandra",
+            "sequence": 11,
+            "distance_km": 14.08,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "khar_road_hr",
+            "display_name": "Khar Road",
+            "sequence": 12,
+            "distance_km": 15.71,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "santa_cruz_hr",
+            "display_name": "Santacruz",
+            "sequence": 13,
+            "distance_km": 17.03,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "vile_parle_hr",
+            "display_name": "Vile Parle",
+            "sequence": 14,
+            "distance_km": 19.09,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "andheri_hr",
+            "display_name": "Andheri",
+            "sequence": 15,
+            "distance_km": 21.25,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "jogeshwari_hr",
+            "display_name": "Jogeshwari",
+            "sequence": 16,
+            "distance_km": 22.94,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "ramnagar",
+            "display_name": "Ramnagar",
+            "sequence": 17,
+            "distance_km": 24.75,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "goregaon_hr",
+            "display_name": "Goregaon",
+            "sequence": 18,
+            "distance_km": 26.32,
+            "branch": "ANDHERI"
+        },
+        {
+            "name": "gtb_nagar",
+            "display_name": "GTB Nagar",
+            "sequence": 19,
+            "distance_km": 11.48,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "chunabhatti",
+            "display_name": "Chunabhatti",
+            "sequence": 20,
+            "distance_km": 13.48,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "kurla_hr",
+            "display_name": "Kurla",
+            "sequence": 21,
+            "distance_km": 15.39,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "tilaknagar",
+            "display_name": "Tilaknagar",
+            "sequence": 22,
+            "distance_km": 16.41,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "chembur",
+            "display_name": "Chembur",
+            "sequence": 23,
+            "distance_km": 17.33,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "govandi",
+            "display_name": "Govandi",
+            "sequence": 24,
+            "distance_km": 18.99,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "mankhurd",
+            "display_name": "Mankhurd",
+            "sequence": 25,
+            "distance_km": 21.38,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "vashi",
+            "display_name": "Vashi",
+            "sequence": 26,
+            "distance_km": 28.89,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "sanpada",
+            "display_name": "Sanpada",
+            "sequence": 27,
+            "distance_km": 30.03,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "juinagar",
+            "display_name": "Juinagar",
+            "sequence": 28,
+            "distance_km": 31.94,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "nerul_hr",
+            "display_name": "Nerul",
+            "sequence": 29,
+            "distance_km": 34.47,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "seawoods_hr",
+            "display_name": "Seawoods Darave",
+            "sequence": 30,
+            "distance_km": 35.84,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "belapur_hr",
+            "display_name": "Belapur CBD",
+            "sequence": 31,
+            "distance_km": 38.22,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "kharghar",
+            "display_name": "Kharghar",
+            "sequence": 32,
+            "distance_km": 40.56,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "mansarovar",
+            "display_name": "Mansarovar",
+            "sequence": 33,
+            "distance_km": 43.48,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "khandeshwar",
+            "display_name": "Khandeshwar",
+            "sequence": 34,
+            "distance_km": 45.76,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "panvel",
+            "display_name": "Panvel",
+            "sequence": 35,
+            "distance_km": 48.94,
+            "branch": "PANVEL"
+        }
+    ],
+    "TH": [
+        {
+            "name": "thane_th",
+            "display_name": "Thane",
+            "sequence": 1,
+            "distance_km": 0,
+            "branch": null
+        },
+        {
+            "name": "dighe",
+            "display_name": "Dighe",
+            "sequence": 2,
+            "distance_km": 3.5,
+            "branch": null
+        },
+        {
+            "name": "airoli",
+            "display_name": "Airoli",
+            "sequence": 3,
+            "distance_km": 5.83,
+            "branch": null
+        },
+        {
+            "name": "rabale",
+            "display_name": "Rabale",
+            "sequence": 4,
+            "distance_km": 8.31,
+            "branch": null
+        },
+        {
+            "name": "ghansoli",
+            "display_name": "Ghansoli",
+            "sequence": 5,
+            "distance_km": 10.62,
+            "branch": null
+        },
+        {
+            "name": "kopar_khairane",
+            "display_name": "Kopar Khairane",
+            "sequence": 6,
+            "distance_km": 12.14,
+            "branch": null
+        },
+        {
+            "name": "turbhe",
+            "display_name": "Turbhe",
+            "sequence": 7,
+            "distance_km": 15.31,
+            "branch": null
+        },
+        {
+            "name": "sanpada_th",
+            "display_name": "Sanpada",
+            "sequence": 8,
+            "distance_km": 17.33,
+            "branch": "VASHI"
+        },
+        {
+            "name": "vashi_th",
+            "display_name": "Vashi",
+            "sequence": 9,
+            "distance_km": 18.51,
+            "branch": "VASHI"
+        },
+        {
+            "name": "juinagar_th",
+            "display_name": "Juinagar",
+            "sequence": 10,
+            "distance_km": 19.5,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "nerul_th",
+            "display_name": "Nerul",
+            "sequence": 11,
+            "distance_km": 21.5,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "seawoods_th",
+            "display_name": "Seawoods Darave",
+            "sequence": 12,
+            "distance_km": 23.5,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "belapur_th",
+            "display_name": "Belapur CBD",
+            "sequence": 13,
+            "distance_km": 26,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "kharghar_th",
+            "display_name": "Kharghar",
+            "sequence": 14,
+            "distance_km": 28.5,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "mansarovar_th",
+            "display_name": "Mansarovar",
+            "sequence": 15,
+            "distance_km": 31,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "khandeshwar_th",
+            "display_name": "Khandeshwar",
+            "sequence": 16,
+            "distance_km": 33.5,
+            "branch": "PANVEL"
+        },
+        {
+            "name": "panvel_th",
+            "display_name": "Panvel",
+            "sequence": 17,
+            "distance_km": 36,
+            "branch": "PANVEL"
+        }
+    ],
+    "PL": [
+        {
+            "name": "nerul",
+            "display_name": "Nerul",
+            "sequence": 1,
+            "distance_km": 0,
+            "branch": null
+        },
+        {
+            "name": "seawoods",
+            "display_name": "Seawoods Darave",
+            "sequence": 2,
+            "distance_km": 1.37,
+            "branch": null
+        },
+        {
+            "name": "belapur",
+            "display_name": "Belapur CBD",
+            "sequence": 3,
+            "distance_km": 3.75,
+            "branch": null
+        },
+        {
+            "name": "targhar",
+            "display_name": "Targhar",
+            "sequence": 4,
+            "distance_km": 5.13,
+            "branch": null
+        },
+        {
+            "name": "bamandongri",
+            "display_name": "Bamandongri",
+            "sequence": 5,
+            "distance_km": 6.97,
+            "branch": null
+        },
+        {
+            "name": "kharkopar",
+            "display_name": "Kharkopar",
+            "sequence": 6,
+            "distance_km": 8.87,
+            "branch": null
+        },
+        {
+            "name": "gavhan",
+            "display_name": "Gavhan",
+            "sequence": 7,
+            "distance_km": 11.46,
+            "branch": null
+        },
+        {
+            "name": "shematikhar",
+            "display_name": "Shematikhar",
+            "sequence": 8,
+            "distance_km": 14.72,
+            "branch": null
+        },
+        {
+            "name": "nhave_sheva",
+            "display_name": "Nhave Sheva",
+            "sequence": 9,
+            "distance_km": 18.55,
+            "branch": null
+        },
+        {
+            "name": "dronagiri",
+            "display_name": "Dronagiri",
+            "sequence": 10,
+            "distance_km": 21.52,
+            "branch": null
+        },
+        {
+            "name": "uran",
+            "display_name": "Uran",
+            "sequence": 11,
+            "distance_km": 24,
+            "branch": null
+        }
+    ]
+}

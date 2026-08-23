@@ -1,0 +1,16 @@
+metric,value
+Total Train Records,744
+Unique Trains,58
+Unique Routes,83
+Railway Lines,3
+Stations Covered,86
+Average Travel Time,3.76
+Average Distance,2.3
+Busiest Route,goregaon -> malad
+Most Active Line,WR
+Most Common Train Type,LOCAL
+Longest Route,badlapur -> vangani
+Slowest Route,umbermalli -> kasara
+Fastest Route,byculla -> chinchpokli
+Local Trains,54
+AC Trains,4
