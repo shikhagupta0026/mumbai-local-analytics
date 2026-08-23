@@ -117,6 +117,152 @@ button[kind="secondary"]:hover{border-color:var(--forest)!important;color:var(--
   .hero-title{font-size:36px}
   .hero-img{width:340px;height:190px}
 }
+
+/* =========================================================
+   GLOBAL MUMBAI RAIL ANALYTICS THEME
+   ========================================================= */
+
+/* Main page */
+.stApp {
+    background: #F7F5EC !important;
+    color: #203426 !important;
+}
+
+.main .block-container {
+    color: #203426 !important;
+}
+
+/* All headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #173B26 !important;
+    font-weight: 800 !important;
+}
+
+/* Normal text */
+p, span, label, div {
+    color: #304B37;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #FFFFFF !important;
+    border-right: 1px solid #DCE7D9 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #203426;
+}
+
+/* Navigation buttons */
+[data-testid="stSidebar"] .stButton > button {
+    background: transparent !important;
+    border: none !important;
+    color: #203426 !important;
+    text-align: left !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: #DCEED8 !important;
+    color: #173B26 !important;
+}
+
+/* Selected navigation */
+.nav-active {
+    background: #245B38 !important;
+    color: #FFFFFF !important;
+    border-radius: 11px !important;
+    font-weight: 800 !important;
+}
+
+/* Select boxes */
+[data-baseweb="select"] > div {
+    background: #FFFFFF !important;
+    border: 1px solid #B8CEB4 !important;
+    border-radius: 10px !important;
+}
+
+/* Multiselect selected tags */
+[data-testid="stMultiSelect"] [data-baseweb="tag"] {
+    background: #DCEED8 !important;
+    border: 1px solid #A8C79F !important;
+    border-radius: 7px !important;
+}
+
+[data-testid="stMultiSelect"] [data-baseweb="tag"] span {
+    color: #245B38 !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMultiSelect"] [data-baseweb="tag"] svg {
+    fill: #245B38 !important;
+}
+
+/* All normal buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: #FFFFFF !important;
+    color: #245B38 !important;
+    border: 1px solid #75A96A !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    transition: all .15s ease !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #DCEED8 !important;
+    color: #173B26 !important;
+    border-color: #245B38 !important;
+}
+
+/* KPI cards */
+.kpi-card {
+    background: #FFFFFF !important;
+    border: 1px solid #DCE7D9 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 14px rgba(36,91,56,.08) !important;
+}
+
+/* Chart containers */
+[data-testid="stPlotlyChart"] {
+    background: #FFFFFF !important;
+    border-radius: 14px !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"] {
+    background: #FFFFFF !important;
+    border: 1px solid #DCE7D9 !important;
+    border-radius: 12px !important;
+}
+
+/* Links */
+a {
+    color: #245B38 !important;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #173B26 !important;
+}
+
+/* Expander */
+[data-testid="stExpander"] {
+    background: #FFFFFF !important;
+    border: 1px solid #DCE7D9 !important;
+    border-radius: 12px !important;
+}
+
+/* Success / information boxes */
+[data-testid="stAlert"] {
+    border-radius: 10px !important;
+}
+
+/* Download buttons */
+.stDownloadButton > button {
+    min-height: 42px !important;
+}
 </style>
 """,
     unsafe_allow_html=True,
@@ -298,6 +444,110 @@ def kpi_card(col, icon, label, value, note):
     )
 
 
+def style_chart(fig, height=400):
+    fig.update_layout(
+        template="plotly_white",
+        height=height,
+        # Background
+        paper_bgcolor="#FFFFFF",
+        plot_bgcolor="#FFFFFF",
+        # Overall font
+        font=dict(
+            family="Arial, sans-serif",
+            color="#1F3D2B",
+            size=14,
+        ),
+        # Title
+        title=dict(
+            font=dict(
+                family="Arial, sans-serif",
+                color="#173B26",
+                size=18,
+            ),
+            x=0.02,
+            xanchor="left",
+        ),
+        # Margins
+        margin=dict(
+            l=155,
+            r=35,
+            t=65,
+            b=65,
+        ),
+        # X AXIS
+        xaxis=dict(
+            title_font=dict(
+                size=13,
+                color="#245B38",
+            ),
+            tickfont=dict(
+                size=13,
+                color="#245B38",
+            ),
+            gridcolor="#DCE9D9",
+            zerolinecolor="#B8CEB4",
+            linecolor="#AFC5AA",
+        ),
+        # Y AXIS
+        yaxis=dict(
+            title_font=dict(
+                size=13,
+                color="#245B38",
+            ),
+            tickfont=dict(
+                size=14,
+                color="#245B38",
+            ),
+            gridcolor="#DCE9D9",
+            zerolinecolor="#B8CEB4",
+            linecolor="#AFC5AA",
+        ),
+        # Legend
+        legend=dict(
+            font=dict(
+                size=13,
+                color="#245B38",
+            ),
+            bgcolor="#FFFFFF",
+        ),
+        # Hover
+        hoverlabel=dict(
+            bgcolor="#245B38",
+            bordercolor="#245B38",
+            font=dict(
+                color="#FFFFFF",
+                size=13,
+            ),
+        ),
+    )
+
+    # Force axis styling after all layout settings
+    fig.update_xaxes(
+        tickfont=dict(
+            size=13,
+            color="#245B38",
+        ),
+        title_font=dict(
+            size=13,
+            color="#245B38",
+        ),
+    )
+
+    fig.update_yaxes(
+        tickfont=dict(
+            size=13,
+            color="#245B38",
+        ),
+        title_font=dict(
+            size=13,
+            color="#245B38",
+        ),
+        automargin=True,
+    )
+
+    return fig
+
+
 # ==================================================================
 # OVERVIEW
 # ==================================================================
@@ -343,14 +593,11 @@ if page == "Overview":
             text="train_records",
             color_discrete_sequence=[GREENS[0]],
         )
+        fig = style_chart(fig, height=360)
         fig.update_layout(
-            template="plotly_white",
-            height=360,
             xaxis_title="",
             yaxis_title="",
             showlegend=False,
-            plot_bgcolor="white",
-            paper_bgcolor="white",
             margin=dict(l=10, r=10, t=10, b=10),
         )
         st.plotly_chart(fig, width="stretch")
@@ -370,12 +617,8 @@ if page == "Overview":
             hole=0.6,
             color_discrete_sequence=GREENS,
         )
-        fig.update_layout(
-            template="plotly_white",
-            height=360,
-            paper_bgcolor="white",
-            margin=dict(l=10, r=10, t=10, b=10),
-        )
+        fig = style_chart(fig, height=360)
+        fig.update_layout(margin=dict(l=10, r=10, t=10, b=10))
         st.plotly_chart(fig, width="stretch")
         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -451,7 +694,28 @@ elif page == "Train Operations":
             title="Top 10 Destinations",
             color_discrete_sequence=[GREENS[0]],
         )
-        fig.update_layout(template="plotly_white", height=430, paper_bgcolor="white")
+
+        fig.update_traces(textfont=dict(size=13, color="#FFFFFF"))
+
+        fig = style_chart(fig, height=430)
+
+        fig.update_layout(
+            margin=dict(
+                l=155,
+                r=30,
+                t=65,
+                b=55,
+            )
+        )
+
+        fig.update_yaxes(
+            tickfont=dict(
+                size=13,
+                color="#245B38",
+            ),
+            automargin=True,
+        )
+
         st.plotly_chart(fig, width="stretch")
 
     with c2:
@@ -466,9 +730,7 @@ elif page == "Train Operations":
                 title="Train Frequency by Time Period",
                 color_discrete_sequence=[GREENS[1]],
             )
-            fig.update_layout(
-                template="plotly_white", height=430, paper_bgcolor="white"
-            )
+            fig = style_chart(fig, height=430)
             st.plotly_chart(fig, width="stretch")
 
 
@@ -494,7 +756,25 @@ elif page == "Route Intelligence":
         title="Top 10 Busiest Routes",
         color_discrete_sequence=[GREENS[0]],
     )
-    fig.update_layout(template="plotly_white", height=460, paper_bgcolor="white")
+    fig = style_chart(fig, height=460)
+
+    fig.update_layout(
+        margin=dict(
+            l=190,
+            r=30,
+            t=65,
+            b=55,
+        )
+    )
+
+    fig.update_yaxes(
+        tickfont=dict(
+            size=13,
+            color="#245B38",
+        ),
+        automargin=True,
+    )
+
     st.plotly_chart(fig, width="stretch")
 
 # STATION ANALYSIS
@@ -521,7 +801,25 @@ elif page == "Station Analysis":
         title="Top 15 Stations by Scheduled Services",
         color_discrete_sequence=[GREENS[0]],
     )
-    fig.update_layout(template="plotly_white", height=550, paper_bgcolor="white")
+    fig = style_chart(fig, height=550)
+
+    fig.update_layout(
+        margin=dict(
+            l=190,
+            r=30,
+            t=65,
+            b=55,
+        )
+    )
+
+    fig.update_yaxes(
+        tickfont=dict(
+            size=13,
+            color="#245B38",
+        ),
+        automargin=True,
+    )
+
     st.plotly_chart(fig, width="stretch")
 
     st.markdown(
@@ -550,7 +848,7 @@ elif page == "Travel Performance":
             title="Distance vs Travel Time",
             color_discrete_sequence=GREENS,
         )
-        fig.update_layout(template="plotly_white", height=440, paper_bgcolor="white")
+        fig = style_chart(fig, height=440)
         st.plotly_chart(fig, width="stretch")
 
     with c2:
@@ -567,7 +865,7 @@ elif page == "Travel Performance":
             title="Average Travel Time by Line",
             color_discrete_sequence=[GREENS[1]],
         )
-        fig.update_layout(template="plotly_white", height=440, paper_bgcolor="white")
+        fig = style_chart(fig, height=440)
         st.plotly_chart(fig, width="stretch")
 
     st.markdown(
@@ -593,12 +891,8 @@ elif page == "Travel Performance":
         title="Top 10 Slowest Routes",
         color_discrete_sequence=[GREENS[0]],
     )
-    fig.update_layout(
-        template="plotly_white",
-        height=440,
-        xaxis_title="Average Travel Time (minutes)",
-        paper_bgcolor="white",
-    )
+    fig = style_chart(fig, height=440)
+    fig.update_layout(xaxis_title="Average Travel Time (minutes)")
     st.plotly_chart(fig, width="stretch")
 
 
@@ -649,7 +943,7 @@ elif page == "SQL Insights":
         title="SQL: Average Travel Time by Railway Line",
         color_discrete_sequence=[GREENS[0]],
     )
-    fig.update_layout(template="plotly_white", height=400, paper_bgcolor="white")
+    fig = style_chart(fig, height=400)
     st.plotly_chart(fig, width="stretch")
 
     st.subheader("🚈 Local vs AC")
@@ -665,7 +959,7 @@ elif page == "SQL Insights":
         hole=0.5,
         color_discrete_sequence=GREENS,
     )
-    fig.update_layout(template="plotly_white", height=350, paper_bgcolor="white")
+    fig = style_chart(fig, height=350)
     c2.plotly_chart(fig, width="stretch")
 
     st.subheader("🕐 Train Frequency by Time Period")
@@ -680,7 +974,7 @@ elif page == "SQL Insights":
         title="SQL: Train Frequency by Time Period",
         color_discrete_sequence=[GREENS[1]],
     )
-    fig.update_layout(template="plotly_white", height=400, paper_bgcolor="white")
+    fig = style_chart(fig, height=400)
     st.plotly_chart(fig, width="stretch")
 
     st.subheader("🐌 Slowest Routes")
